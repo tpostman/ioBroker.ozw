@@ -12,42 +12,25 @@
         "titleLang": {
             "en": "Javascript/Node.js based ozw",
             "de": "Javascript / Node.js basierte Vorlagenadapter",
-            "ru": "Адаптер шаблонов на основе Javascript / Node.js",
-            "pt": "Adaptador de modelo baseado em Javascript / Node.js",
-            "nl": "Javascript / Node.js gebaseerde sjabloonadapter",
-            "fr": "Javascript / Node.js basé adaptateur de modèle",
-            "it": "Adattatore modello basato su Javascript / Node.js",
-            "es": "Adaptador de plantilla basado en JavaScript / Node.js"
         },
         "desc": {
             "en": "ioBroker ozw",
             "de": "ioBroker Ozw",
-            "ru": "ioBroker Ozw как образец",
-            "pt": "Modelo de adaptador para o ioBroker",
-            "fr": "ioBroker adaptateur modèle",
-            "nl": "ioBroker Ozw",
-            "it": "Adattatore modello ioBroker",
-            "es": "Adaptador de plantilla ioBroker"
         },
         "authors": [
             "Tobias Postler <pengineering@gmx.de>"
         ],
         "docs": {
             "en": "docs/en/admin.md",
-            "ru": "docs/ru/admin.md",
             "de": "docs/de/admin.md",
-            "es": "docs/es/admin.md",
-            "it": "docs/it/admin.md",
-            "fr": "docs/fr/admin.md",
-            "nl": "docs/nl/admin.md",
-            "pt": "docs/pt/admin.md"
         },
         "platform": "Javascript/Node.js",
-        "mode": "daemon",
+        "mode": "schedule",
+		"schedule":"*/1 * * * *",
         "icon": "ozw.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ozw/master/admin/ozw.png",
+        "extIcon": "https://github.com/tpostman/ioBroker.ozw.git/master/admin/ozw.png",
         "keywords": ["ozw", "vis", "GUI", "graphical", "scada"],
         "readme": "https://github.com/tpostman/ioBroker.ozw.git/master/README.md",
         "loglevel": "info",
