@@ -1,36 +1,14 @@
 {
     "common": {
         "name": "ozw",
-        "version": "0.6.0",
+        "version": "0.0.1",
         "news": {
-            "0.6.0": {
+            "0.0.1": {
                 "en": "Support of admin3",
                 "de": "Unterstützung von admin3",
-                "ru": "Поддержка admin3",
-                "pt": "Suporte de admin3",
-                "nl": "Ondersteuning van admin3",
-                "fr": "Support de admin3",
-                "it": "Supporto di admin3",
-                "es": "Soporte de admin3"
             },
-            "0.5.0": {
-                "en": "beta version",
-                "de": "Betaversion",
-                "ru": "Бета версия",
-                "pt": "Versão beta",
-                "fr": "Version bêta",
-                "nl": "Beta versie"
-            },
-            "0.0.1": {
-                "en": "initial adapter",
-                "de": "Initiale Version",
-                "ru": "Первоначальный адаптер",
-                "pt": "Versão inicial",
-                "fr": "Version initiale",
-                "nl": "Eerste release"
-            }
         },
-		"title": "Javascript/Node.js based ozw",
+		"title": "iobroker OZW Adapter",
         "titleLang": {
             "en": "Javascript/Node.js based ozw",
             "de": "Javascript / Node.js basierte Vorlagenadapter",
@@ -71,7 +49,7 @@
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ozw/master/admin/ozw.png",
         "keywords": ["ozw", "vis", "GUI", "graphical", "scada"],
-        "readme": "https://github.com/ioBroker/ioBroker.ozw/blob/master/README.md",
+        "readme": "https://github.com/tpostman/ioBroker.ozw.git/master/README.md",
         "loglevel": "info",
         "type": "general",
         "license": "MIT",
