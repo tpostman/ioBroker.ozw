@@ -5,36 +5,36 @@
         "news": {
             "0.0.1": {
                 "en": "Support of admin3",
-                "de": "Unterstützung von admin3",
-            },
+                "de": "Unterstützung von admin3"
+            }
         },
-		"title": "iobroker OZW Adapter",
+		"title": "OZW",
         "titleLang": {
-            "en": "Javascript/Node.js based ozw",
-            "de": "Javascript / Node.js basierte Vorlagenadapter",
+            "en": "OZW",
+            "de": "OZW"
         },
         "desc": {
-            "en": "ioBroker ozw",
-            "de": "ioBroker Ozw",
+            "en": "Reads datapoints from a Siemens OZW Server",
+            "de": "Liest Daten von einem Siemens OZW Server"
         },
         "authors": [
             "Tobias Postler <pengineering@gmx.de>"
         ],
         "docs": {
             "en": "docs/en/admin.md",
-            "de": "docs/de/admin.md",
+            "de": "docs/de/admin.md"
         },
         "platform": "Javascript/Node.js",
         "mode": "schedule",
-		"schedule":"*/1 * * * *",
+		"schedule": "*/1 * * * *",
         "icon": "ozw.png",
         "materialize": true,
         "enabled": true,
         "extIcon": "https://github.com/tpostman/ioBroker.ozw.git/master/admin/ozw.png",
-        "keywords": ["ozw", "vis", "GUI", "graphical", "scada"],
+        "keywords": ["ozw", "heating"],
         "readme": "https://github.com/tpostman/ioBroker.ozw.git/master/README.md",
         "loglevel": "info",
-        "type": "general",
+        "type": "other",
         "license": "MIT",
         "messagebox": false,
         "restartAdapters": ["vis"]
