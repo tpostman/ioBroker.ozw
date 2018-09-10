@@ -65,9 +65,9 @@ function main() {
 
     // The adapters config (in the instance object everything under the attribute "native") is accessible via
     // adapter.config:
-    adapter.log.info('config test1: '    + adapter.config.test1);
-    adapter.log.info('config test1: '    + adapter.config.test2);
-    adapter.log.info('config mySelect: ' + adapter.config.mySelect);
+    adapter.log.info('config host: '    + adapter.config.host);
+    adapter.log.info('config user: '    + adapter.config.user);
+    adapter.log.info('config password: ' + adapter.config.password);
 
 
     /**
